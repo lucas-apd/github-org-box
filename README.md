@@ -5,7 +5,36 @@ Requirements:  Python3 + Python3-pip
 
 #### Script Steps:
 
-- Check
+What the output show us?
+
+- Date of execution;
+- Organization name;
+- Total repository count;
+- Your public repositories;
+- All used languages;
+- 5 most common used languages;
+- Total members count;
+- Team names;
+- Name of Administrators;
+- Archived repositories count;
+- Forked repositories names;
+- Repositories with vulnerable libs.
+
+Ad about each repository:
+
+- Name;
+- If is private;
+- If readme file exist;
+- All topics;
+- Endpoint link;
+- Last Update in days;
+- If the repository has protection rule (>1 reviewers) for Master Branch;
+- Teams with access;
+- If security alerts is active;
+- Number of vulnerable libs. 
+
+Todo:
+- If dependabot alerts is active for all new repositories.
 
 #### How-to:
 > git clone https://github.com/lucas-apd/github-org-box.git
@@ -20,8 +49,7 @@ Requirements:  Python3 + Python3-pip
 >  
 > python3 main.py
   
-**The result is a file like github_full_report_orgname.json**
 
-Example report here.
   
   
+**The result is a file like [github_full_report_orgname.json](https://github.com/lucas-apd/github-org-box/blob/main/example.report.json)**
