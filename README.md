@@ -10,4 +10,8 @@ Requirements:  Python3 + Python3-pip
 > 
 > pip3 install -r requirements.txt
 > 
+> export GITHUB_TOKEN=<YOUR-TOKEN-HERE>
+>  
+> export GITHUB_ORG=<YOUR-ORG-NAME-HERE>
+>  
 > python3 main.py
