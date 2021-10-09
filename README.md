@@ -37,7 +37,8 @@ About each repository:
 
 Todo:
 - [ ] If dependabot alerts is active for all new repositories
-- [ ] Containerization 
+- [ ] Containerization
+- [ ] Create a dashboard
 
 #### How-to:
 > git clone https://github.com/lucas-apd/github-org-box.git
