@@ -12,7 +12,7 @@ What the output show us?
 - Date of execution;
 - Organization name;
 - Total repository count;
-- Your public repositories;
+- Public repositories;
 - All used languages;
 - 5 most common used languages;
 - Total members count;
