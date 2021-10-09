@@ -1,8 +1,10 @@
 # github-org-box
 Code for generate a github organization overview including security insights
 
-Requirements:  Python3 + Python3-pip
-
+Requirements:  Git + Python3 + Python3-pip
+>
+> sudo apt install -y git python3 python3-pip
+> 
 #### Script Steps:
 
 What the output show us?
