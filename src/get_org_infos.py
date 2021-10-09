@@ -1,4 +1,4 @@
-from os import getenv, name
+from os import getenv
 from github import Github as gh
 from github import GithubException, RateLimitExceededException, UnknownObjectException
 from time import sleep, gmtime
@@ -11,8 +11,8 @@ from requests import post
 class GithubOverview(gh):
     
     def __init__(self):
-        self.ORG_NAME = getenv('GITHUB_ORG', default=None) # < Export Yout GitHub Org Name env variable! (export GITHUB_ORG='name')
-        self.GH_TOKEN = getenv('GITHUB_TOKEN', default=None) # < Export Yout GitHub Token env variable! (export GITHUB_TOKEN='token')
+        self.ORG_NAME = getenv('GITHUB_ORG', default=None)
+        self.GH_TOKEN = getenv('GITHUB_TOKEN', default=None)
         if not self.GH_TOKEN or not self.ORG_NAME:
             print('All variables are required: GITHUB_ORG e GITHUB_TOKEN')
             exit()
