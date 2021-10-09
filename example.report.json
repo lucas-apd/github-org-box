@@ -1,0 +1,52 @@
+"Date": "2021-10-08",
+    "Org": {
+        "Org_Name": "GitHubOrgName",
+        "Total_Repos": 38,
+        "Public_Repos": ["PublicRepoName"],
+        "Used_Languages": [
+            "Python",
+            "JavaScript",
+            "CSS",
+            "Go",
+            "HTML",
+            "Shell"
+        ],
+        "Common_Languages": [
+            "Python",
+            "Shell",
+            "Go",
+            "HTML",
+            "JavaScript"
+        ],
+        "Total_Members": 357,
+        "Teams": [
+            "Security",
+            "Data",
+            "Tech"
+        ],
+        "Admins": [
+            "user1",
+            "admin1",
+            "admin2"
+        ],
+        "Repos": [
+            {
+                "Name": "Private Repo Name",
+                "Is_Private": true,
+                "Readme_Exist": false,
+                "Topics": [],
+                "Endpoint": null,
+                "Last_Update": 45,
+                "Master_Protect": false,
+                "Teams": ["Security"],
+                "Alerts_On": true,
+                "Vulnerabilities": 2
+            }
+        ],
+        "Archived_Repos": 1,
+        "Forked_Repos": 1,
+        "Vuln_Repos": [
+            "My Private Repo Name"
+        ]
+    }
+}
