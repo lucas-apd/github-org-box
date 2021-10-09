@@ -195,6 +195,3 @@ class GithubOverview(gh):
         with open(f'github_full_report_{self.ORG_NAME}.json', 'w') as full_report:
             full_report.write(dumps(report,ensure_ascii=False, indent=4, sort_keys=False))
         full_report.close()
-
-if __name__ == '__main__':
-    full_report = GithubOverview()
