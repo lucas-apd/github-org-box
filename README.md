@@ -22,7 +22,7 @@ What the output show us?
 - Forked repositories names;
 - Repositories with vulnerable libs.
 
-Ad about each repository:
+About each repository:
 
 - Name;
 - If is private;
