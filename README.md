@@ -36,7 +36,7 @@ About each repository:
 - Number of vulnerable libs. 
 
 Todo:
-- [ ] If dependabot alerts is active for all new repositories
+- [ ] If dependabot alerts is active by default
 - [ ] Containerization
 - [ ] Create a dashboard
 
