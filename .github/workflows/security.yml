@@ -1,12 +1,12 @@
-on:
-  # Trigger analysis when pushing in master or pull requests, and when creating
-  # a pull request.
-  push:
-    branches:
-      - master
-  pull_request:
-      types: [opened, synchronize, reopened]
-name: Main Workflow
+name: Security Pipeline
+on: [push, pull_request]
+#on:
+#  push:
+#    branches:
+#      - master
+#  pull_request:
+#      types: [opened, synchronize, reopened]
+
 jobs:
   sonarcloud:
     runs-on: ubuntu-latest
@@ -20,3 +20,28 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        
+  gitleaks:
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v1
+      - name: gitleaks-action
+        uses: zricethezav/gitleaks-action@master
+        
+  anchore:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+
+      - name: build local container
+        uses: docker/build-push-action@v2
+        with:
+          tags: localbuild/testimage:latest
+          push: false
+          load: true
+      - name: Scan image
+        uses: anchore/scan-action@v3
+        with:
+          image: "localbuild/testimage:latest"
+
