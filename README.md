@@ -57,5 +57,3 @@ Todo:
   
   
 **The result is a file like [github_full_report_orgname.json](https://github.com/lucas-apd/github-org-box/blob/main/example.report.json)**
-
-Help me!
