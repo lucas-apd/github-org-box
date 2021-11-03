@@ -1,4 +1,4 @@
-[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=com.lapots.breed.judge:judge-rule-engine&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.lapots.breed.judge:judge-rule-engine)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=lucas-apd_github-org-box&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=lucas-apd_github-org-box)
 
 # github-org-box
 Code for generate a github organization overview including security insights
