@@ -1,4 +1,4 @@
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=lucas-apd_github-org-box&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=lucas-apd_github-org-box)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=OlaIsaac_cybersecurity&metric=security_rating&token=4be9c565c0433fd827f41f52e91ebecebb7af92f)](https://sonarcloud.io/summary/new_code?id=OlaIsaac_cybersecurity)
 
 # github-org-box
 Code for generate a github organization overview including security insights
